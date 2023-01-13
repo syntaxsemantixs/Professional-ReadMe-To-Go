@@ -1,27 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-
-//*******need to edit to push into README**********
-const generateREADME = ({ name, location, github, linkedin }) =>
-	//Generatesin ReadMe
-	`<title>Info</title>
-	</head>
-	
-	<body>
-	  <header>
-		<nav class="text-right">
-		  <ul>
-			<li>${name}</li>
-			<li>${location}</li>
-			<li><a href="https://github.com/${github}">${github}</li>
-			<li><a href="https://www.linkedin.com/in/${linkedin}/">${linkedin}</li>
-		  </ul>
-		</nav>
-		
-	</body>
-	
-	`;
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
     // all names: title, description, installation, instuctions, contribution, testing, license, username, questions
 //const gernerateMarkdown = require('./utils/generatedMarkdown.js')
@@ -40,12 +20,12 @@ const questions = [{
     //confirms if there is an installation process
     name: 'confirmInstallation',
     type: "confirm",
-    message: 'Is there an installtion process?',
+    message: 'Is there an installation process?',
 },
 {
     name: 'installation',
     type: "input",
-    message: 'Please list installtion instructions.',
+    message: 'Please list installation instructions.',
 },
 {
     //confirms if there is an installtion process
@@ -86,6 +66,11 @@ const questions = [{
 {
     name: 'username',
     type: "input",
+    message: 'What is your github username ?',
+},
+{
+    name: 'email',
+    type: "input",
     message: 'What is your email address?',
 },
 {
@@ -111,7 +96,7 @@ function init() {
     inquirer.prompt(questions)
 	.then(function(answers) {
         console.log(answers)
-        writeToFile("README.md", answers);
+        writeToFile("README.md", generateMarkdown(answers));
 	});}
 
 // Function call to initialize app
