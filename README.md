@@ -1,7 +1,7 @@
-# new-repo
+# asdf
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license--blue)](https://shields.io)
+  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://shields.io)
   ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)
@@ -10,18 +10,18 @@
   - [Testing](#testing)
   - [Additional Info](#additional-info)
   ## Description:
-  New project
+  asdf
   ## Installation:
-  blah blah blah
+  asddf
   ## Usage:
   undefined
   ## License:
-  
+  MIT
   ## Contribution:
-  n/a
+  asddf
   ## Testing:
-  
+  asd
   ## Additional Info:
-  - Github: [syntaxsemantics](https://github.com/syntaxsemantics)
-  - Email: goawjeddf@gmail.com
+  - Github: [asdf](https://github.com/asdf)
+  - Email: asdf
 

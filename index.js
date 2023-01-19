@@ -56,12 +56,14 @@ const questions = [{
 },
 {
     name: 'license',
-    type: 'checkbox',
+    type: 'list',
     message: 'Please choose a license.',
-    choices: ['GNU AGPLv3', 'GNU GPLv3',
-    'GNU LGPLv3', 'Mozilla Public License 2.0',
-    'Apache License 2.0', 'MIT License', 'Boost Software License 1.0',
-    'The Unlicense'],
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+    
+    // //['GNU AGPLv3', 'GNU GPLv3',
+    // 'GNU LGPLv3', 'Mozilla Public License 2.0',
+    // 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0',
+    // 'The Unlicense'],
 },
 {
     name: 'username',
