@@ -1,27 +1,31 @@
 # asdf
+  
+  ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-  ## Licensing:
-  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://shields.io)
+
+  ## Description:
+  asdf
+
   ## Table of Contents 
-  - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [License](#license)
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Additional Info](#additional-info)
-  ## Description:
-  asdf
   ## Installation:
-  asddf
+  asda
   ## Usage:
   undefined
-  ## License:
-  MIT
+
+  ## License
+    This application is covered by the MIT license.
+
   ## Contribution:
-  asddf
+  asdf
   ## Testing:
-  asd
+  asdf
   ## Additional Info:
-  - Github: [asdf](https://github.com/asdf)
-  - Email: asdf
+  - Github: [](https://github.com/)
+  - Email: asd
 
