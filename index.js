@@ -17,37 +17,14 @@ const questions = [{
     message: 'What is the description of your repository?',
 },
 {
-    //confirms if there is an installation process
-    name: 'confirmInstallation',
-    type: "confirm",
-    message: 'Is there an installation process?',
-},
-{
     name: 'installation',
     type: "input",
     message: 'Please list installation instructions.',
 },
 {
-    //confirms if there is an installtion process
-    name: 'instuctions',
-    type: "confirm",
-    message: 'Please list instructions for using your application. It is recommended to add descriptive images later as well.',
-},
-{
-    name: 'confirmContribution',
-    type: "confirm",
-    message: 'May other developers contribute to your repository?',
-},
-{
     name: 'contribution',
     type: "input",
     message: 'Please explain how other developers may contribute to your project.',
-},
-{
-    //confirms if there is testing available
-    name: 'testConfirm',
-    type: "confirm",
-    message: 'Is testing available?',
 },
 {
     name: 'testing',
