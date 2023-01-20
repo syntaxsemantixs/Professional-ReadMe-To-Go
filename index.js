@@ -22,6 +22,11 @@ const questions = [{
     message: 'Please list installation instructions.',
 },
 {
+    name: 'usage',
+    type: "input",
+    message: 'Please list the usage.',
+},
+{
     name: 'contribution',
     type: "input",
     message: 'Please explain how other developers may contribute to your project.',

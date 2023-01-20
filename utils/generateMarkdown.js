@@ -51,10 +51,11 @@ function generateMarkdown(data) {
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Additional Info](#additional-info)
+  - [Questions](#questions)
   ## Installation:
   ${data.installation}
   ## Usage:
-  ${data.usage}
+  [Video](${data.usage})
 
   ${renderLicenseSection(data.license)}
 
@@ -65,6 +66,8 @@ function generateMarkdown(data) {
   ## Additional Info:
   - Github: [${data.username}](https://github.com/${data.username})
   - Email: ${data.email}
+  ## Questions:
+  ${data.questions}
 
 `;
 }
