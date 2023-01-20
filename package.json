@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Professional ReadMe Generator for those in need of a quick template.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntaxsemantixs/Professional-ReadMe-To-Go.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/syntaxsemantixs/Professional-ReadMe-To-Go/issues"
+  },
+  "homepage": "https://github.com/syntaxsemantixs/Professional-ReadMe-To-Go#readme"
 }
